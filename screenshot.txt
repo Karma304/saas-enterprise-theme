@@ -1,0 +1,29 @@
+# Screenshot Placeholder
+
+## So erstellen Sie einen Screenshot für das Theme:
+
+1. **Seite erstellen:**
+   - Erstellen Sie eine neue Seite in WordPress
+   - Fügen Sie verschiedene Patterns hinzu (Hero, Features, Pricing, etc.)
+   - Arrangieren Sie die Patterns so, dass sie gut aussehen
+
+2. **Screenshot aufnehmen:**
+   - Öffnen Sie die Seite in einem Browser
+   - Setzen Sie die Auflösung auf 1200x900 Pixel (empfohlen)
+   - Nehmen Sie einen Screenshot der Seite auf
+   - Der Screenshot sollte den oberen Teil der Seite zeigen (Above the Fold)
+
+3. **Screenshot bearbeiten:**
+   - Zuschneiden auf genau 1200x900 Pixel
+   - Als PNG speichern
+   - Dateiname: `screenshot.png`
+   - Im Theme-Root-Verzeichnis speichern
+
+4. **Alternativen:**
+   - Sie können auch Tools wie Canva oder Figma verwenden
+   - Erstellen Sie ein Mockup der Seite
+   - Exportieren Sie als 1200x900 PNG
+
+## Hinweis:
+Solange keine `screenshot.png` Datei vorhanden ist, wird WordPress den 
+Standard-Platzhalter in der Theme-Übersicht anzeigen.
