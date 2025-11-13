@@ -1,0 +1,164 @@
+/*
+Theme Name: SaaS Enterprise Theme
+Theme URI: https://github.com/Karma304/saas-enterprise-theme
+Author: Karma304
+Author URI: https://github.com/Karma304
+Description: Hochmodernes WordPress Block Theme für B2B SaaS-Unternehmen mit über 60+ professionellen Patterns und modernen Design-Elementen
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: saas-enterprise-theme
+Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, template-editing, translation-ready, wide-blocks
+
+SaaS Enterprise Theme, (C) 2025 Karma304
+SaaS Enterprise Theme is distributed under the terms of the GNU GPL.
+*/
+
+/*
+ * Custom CSS for the SaaS Enterprise Theme
+ * Most styling is handled through theme.json
+ */
+
+/* Smooth scrolling */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Back to top button base styles */
+.back-to-top {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	z-index: 1000;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top.visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+.back-to-top:hover {
+	transform: translateY(-4px);
+}
+
+/* Reading progress bar */
+.reading-progress-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 3px;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	z-index: 9999;
+	transition: width 0.2s ease;
+}
+
+/* Mobile menu toggle */
+.mobile-menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+
+@media (max-width: 782px) {
+	.mobile-menu-toggle {
+		display: block;
+	}
+}
+
+/* Cookie consent banner */
+.cookie-consent {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9998;
+	transform: translateY(100%);
+	transition: transform 0.3s ease;
+}
+
+.cookie-consent.visible {
+	transform: translateY(0);
+}
+
+/* Gradient animations */
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.animated-gradient {
+	background-size: 200% 200%;
+	animation: gradient-animation 15s ease infinite;
+}
+
+/* Hover effects */
+.wp-block-button__link {
+	transition: all 0.3s ease;
+}
+
+.wp-block-button__link:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Card hover effects */
+.wp-block-group.has-background:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fade-in {
+	animation: fadeIn 0.6s ease-out;
+}
+
+/* Typing animation placeholder */
+.typing-animation {
+	overflow: hidden;
+	border-right: 0.15em solid;
+	white-space: nowrap;
+	animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: currentColor;
+	}
+}
