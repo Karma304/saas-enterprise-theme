@@ -6,7 +6,7 @@ Hochmodernes WordPress Block Theme für B2B SaaS-Unternehmen mit über 60+ profe
 
 ### Design & Layout
 - **Full Site Editing (FSE)** - Vollständige Kontrolle über das Design
-- **60+ Block Patterns** - Vorgefertigte Sektionen für schnellen Seitenaufbau
+- **30+ Block Patterns** - Vorgefertigte Sektionen für schnellen Seitenaufbau
 - **Responsive Design** - Mobile-First Ansatz für alle Geräte
 - **Moderne Farbpalette** - Professionelle Farben speziell für SaaS-Unternehmen
 - **Custom Gradients** - 5 vordefinierte Gradient-Stile
@@ -66,34 +66,37 @@ Das Theme enthält folgende Pattern-Kategorien:
 - Standard Hero
 - Hero mit Split Layout
 - Hero mit Video-Hintergrund
+- Hero mit animiertem Gradient
+- Hero mit Statistiken
 - Hero mit Formular
-- Animierte Hero-Sektionen
 
 ### About Sections (`saas-about`)
-- Team Grid
+- Team Grid mit Bildern
 - Unternehmensgeschichte Timeline
-- Mission & Vision
 - Company Values Grid
+- Mission & Vision
 - Karriere-Sektion
 
 ### Banners (`saas-banners`)
 - Announcement Bar
 - Cookie Consent Banner
-- Limited Time Offer
+- Limited Time Offer Banner
 - Webinar Registration
 - Product Launch Banner
 
 ### Call-to-Action (`saas-cta`)
 - Free Trial CTA
 - Contact Sales Form
-- Newsletter Signup
-- Live Demo Booking
+- Newsletter Signup mit Formular
+- Demo Booking mit Highlights
+- Final Call-to-Action
 
 ### Features (`saas-features`)
-- Feature Highlights
+- Feature Highlights Grid
+- Feature Comparison Table
+- Integration Showcase mit Logos
+- Process Steps (1-2-3)
 - Feature Tabs
-- Integration Showcase
-- Process Steps
 
 ### Pricing (`saas-pricing`)
 - 3-Spalten Pricing Table
@@ -101,33 +104,40 @@ Das Theme enthält folgende Pattern-Kategorien:
 - ROI Calculator
 
 ### Testimonials (`saas-testimonials`)
-- Testimonial Grid
+- Review Cards mit Bewertungen
+- Customer Logos Leiste
 - Customer Success Stories
 - Review Ratings (G2, Capterra, Trustpilot)
+- Testimonial Grid
 
 ### Statistics (`saas-stats`)
+- Metrics Dashboard mit Zahlen
 - Stats Section mit großen Zahlen
 - Trust Badges
 - Social Proof Logos
 
 ### FAQ (`saas-faq`)
+- Accordion FAQ mit ausklappbaren Antworten
 - FAQ mit Details-Elementen
-- Accordion-Style FAQ
+- Two-Column FAQ
 
 ### Gallery (`saas-gallery`)
-- Screenshot Gallery
+- Screenshot Showcase mit Grid
 - Video Gallery
 - Logo Showcase
+- Product Screenshots
 
 ### Posts (`saas-posts`)
-- Blog Grid (3 Spalten)
+- Blog Grid (3 Spalten) mit Bildern
 - Featured Blog Post
 - Blog mit Sidebar
+- Latest Articles Section
 
 ### Text Sections (`saas-text`)
 - Two Column Text
+- Highlight Boxes (Info, Warning, Success, Tip)
+- Quote Block (groß)
 - Text mit Icons
-- Highlight Boxes
 - Callout Boxes
 
 ## 🛠️ Anpassung
